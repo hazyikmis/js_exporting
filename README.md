@@ -20,8 +20,25 @@ exports.surface = surface;
 
 # method 4
 
-`exports.CartActionTypes = {TOGGLE_CART_HIDDEN: 'TOGGLE_CART_HIDDEN', ADD_ITEM: 'ADD_ITEM', `};`
+```
+exports.CartActionTypes = {
+  TOGGLE_CART_HIDDEN: 'TOGGLE_CART_HIDDEN',
+  ADD_ITEM: 'ADD_ITEM'
+};
+```
 
-//the export below requires webpack & babel
+//the exports below requires webpack & babel
 
-`export const CartActionTypes = { TOGGLE_CART_HIDDEN: 'TOGGLE_CART_HIDDEN', ADD_ITEM: 'ADD_ITEM', };`
+```
+export const CartActionTypes = {
+  TOGGLE_CART_HIDDEN: 'TOGGLE_CART_HIDDEN',
+  ADD_ITEM: 'ADD_ITEM'
+};
+```
+
+```
+export default {
+  primaryColor: '#4a148c',
+  accentColor: '#ff6f00',
+};
+```
