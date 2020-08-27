@@ -2,13 +2,13 @@
 
 # method 1
 
-`
+```
 const area = (a) => 'XXX';
 const surface = (a) => 'YYY';
 
 exports.area = area;
 exports.surface = surface;
-`
+```
 
 # method 2
 
